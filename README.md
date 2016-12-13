@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jiangtianyu2009/jiangtianyu2009.github.io.svg?branch=master)](https://travis-ci.org/jiangtianyu2009/jiangtianyu2009.github.io)
+
 # jekyll-simple
 
 ## simple
