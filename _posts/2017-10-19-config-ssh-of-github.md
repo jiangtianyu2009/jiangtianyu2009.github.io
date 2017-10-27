@@ -31,3 +31,12 @@ Then go to the GitHub Personal Settings to add a new SSH key.
 ![]({{site.baseurl}}/assets/img/ssh-github.png)
 
 All done!
+
+But, if the SSH agent did not start automatically, you need to start it via command:  
+
+```
+eval `ssh-agent`
+ssh-add
+```
+
+Thanks!
