@@ -6,5 +6,6 @@ description: To be edit.
 ---
 
 To be edit.  
+![]({{site.baseurl}}/assets/img/auto-scrapinghub.png)
 
 Thanks!
