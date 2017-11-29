@@ -9,7 +9,7 @@ To be edit.
 
 ![]({{site.baseurl}}/assets/img/auto-scrapinghub.png)  
 
-[![]({{site.baseurl}}/assets/img/spider-auto-deploy.png)]({site.baseurl}}/assets/img/spider-auto-deploy.png)  
+[![]({{site.baseurl}}/assets/img/spider-auto-deploy.png)]({{site.baseurl}}/assets/img/spider-auto-deploy.png)  
 
 ![]({{site.baseurl}}/assets/img/travis-ci-cron.png)  
 
