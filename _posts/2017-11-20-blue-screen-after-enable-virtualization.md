@@ -13,6 +13,6 @@ The `Hyper-V` is originally enable on this laptop, because of some reason, we ne
 After several tries, we found the `Hyper-V` need to be disabled to resolve this problem.  
 We have no idea whether it is the issue of this laptop BIOS or the Windows 10. For reference, you can have a try if you meet the same issue.
 
-![]({{site.baseurl}}/assets/img/hyper-v-disable.png)
+[![]({{site.baseurl}}/assets/img/hyper-v-disable.png)]({{site.baseurl}}/assets/img/hyper-v-disable.png)
 
 Thanks!

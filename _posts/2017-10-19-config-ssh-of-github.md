@@ -28,7 +28,7 @@ Next step is to copy the public key to the GitHub, check the key via `cat /usern
 
 Then go to the GitHub Personal Settings to add a new SSH key.
 
-![]({{site.baseurl}}/assets/img/ssh-github.png)
+[![]({{site.baseurl}}/assets/img/ssh-github.png)]({{site.baseurl}}/assets/img/ssh-github.png)
 
 All done!
 
