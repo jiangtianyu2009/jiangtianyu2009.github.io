@@ -219,12 +219,12 @@ p.readmore {
 }
 
 .article-content a {
-  border-bottom:1px dotted red;
+  border-bottom:none;
   text-decoration:none;
 }
 .article-content a:hover {
   color:red;
-  border-bottom:1px dotted red;
+  border-bottom:none;
 }
 
 .article-footer {
