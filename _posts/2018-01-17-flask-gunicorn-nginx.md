@@ -1,6 +1,6 @@
 ---
 layout:      post
-title:       Flask-Gunicorn-Nginx
+title:       Flask Gunicorn Nginx
 category:    Python
 description: To be edit.
 ---
@@ -31,7 +31,7 @@ def hello_world():
 
 Gunicorn:  
 `pip install gunicorn`  
-`gunicorn -w 4 -b 127.0.0.1:4000 jav:app`  
+`gunicorn -w 4 -b 127.0.0.1:4000 jav:app --daemon`  
 
 
 Nginx:  
@@ -40,7 +40,7 @@ Nginx:
 ```
 http {
     server {
-        listen 80;
+        listen 80; # 443 for https
         server_name 104.156.245.172; # vultr ip
 
         location / {
