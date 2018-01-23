@@ -57,8 +57,10 @@ http {
 `nginx -s reload`  
 
 Domain:  
-A record to vultr IP  
+A-record to vultr IP  
+[![]({{site.baseurl}}/assets/img/webstack/A-record.png)]({{site.baseurl}}/assets/img/webstack/A-record.png)  
 
+Architecture:  
 [![]({{site.baseurl}}/assets/img/webstack/webstack.png)]({{site.baseurl}}/assets/img/webstack/webstack.png)  
 
 Thanks!  
