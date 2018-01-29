@@ -2,10 +2,10 @@
 layout:      post
 title:       Flask Gunicorn Nginx
 category:    Python
-description: To be edit.
+description: Description each section of Flask Web Project.
 ---
 
-Python:  
+## Python ##
 `apt install python3-pip`  
 `pip3 install virtualenv`  
 `virtualenv venv`  
@@ -13,7 +13,7 @@ Python:
 
 
 
-Flask:  
+## Flask ##
 `pip install Flask`  
 `vim jav.py`  
 ```
@@ -25,16 +25,16 @@ def hello_world():
     return 'Hello, World!'
 ```
 `export FLASK_APP=jav.py`  
-`flask run` # Default 127.0.0.1:5000  
+`flask run` # default 127.0.0.1:5000  
 `flask run --host=0.0.0.0` # external ip access  
 
 
-Gunicorn:  
+## Gunicorn ##
 `pip install gunicorn`  
 `gunicorn -w 4 -b 127.0.0.1:4000 jav:app --daemon`  
 
 
-Nginx:  
+## Nginx ##
 `apt-get install nginx`  
 `cat /etc/nginx/nginx.conf`  
 ```
@@ -56,11 +56,11 @@ http {
 `nginx` # start service  
 `nginx -s reload`  
 
-Domain:  
+## Domain ##
 A-record to vultr IP  
 [![]({{site.baseurl}}/assets/img/webstack/A-record.png)]({{site.baseurl}}/assets/img/webstack/A-record.png)  
 
-Architecture:  
+## Architecture ##
 [![]({{site.baseurl}}/assets/img/webstack/webstack.png)]({{site.baseurl}}/assets/img/webstack/webstack.png)  
 
 Thanks!  
