@@ -31,7 +31,8 @@ def hello_world():
 
 ## Gunicorn ##
 `pip install gunicorn`  
-`gunicorn -w 4 -b 127.0.0.1:4000 jav:app --daemon`  
+`gunicorn -w 4 -b 127.0.0.1:4000 jav:app --reload --daemon`  
+`--reload` is for auto reload app when code changes.
 
 
 ## Nginx ##
