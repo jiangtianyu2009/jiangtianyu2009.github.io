@@ -27,4 +27,7 @@ def updatecode():
 ## Webhooks Response ##
 [![]({{site.baseurl}}/assets/img/webhooks-response.png)]({{site.baseurl}}/assets/img/webhooks-response.png)  
 
+## Architecture ##  
+[![]({{site.baseurl}}/assets/img/auto-deploy-flask.png)]({{site.baseurl}}/assets/img/auto-deploy-flask.png)  
+
 Thanks!  
