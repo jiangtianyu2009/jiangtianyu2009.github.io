@@ -59,16 +59,16 @@ http {
 
 ## Domain ##
 - Default Freenom Setting without CloudFlare.  
-[![]({{site.baseurl}}/assets/img/webstack/freenom-A-record.png)]({{site.baseurl}}/assets/img/webstack/freenom-A-record.png)  
+[![]({{site.baseurl}}/assets/img/freenom-A-record.png)]({{site.baseurl}}/assets/img/freenom-A-record.png)  
 
 - With CloudFlare DNS.  
-[![]({{site.baseurl}}/assets/img/webstack/cloudflare-A-record.png)]({{site.baseurl}}/assets/img/webstack/cloudflare-A-record.png)  
+[![]({{site.baseurl}}/assets/img/cloudflare-A-record.png)]({{site.baseurl}}/assets/img/cloudflare-A-record.png)  
 
 ## Architecture ##
 - Without CloudFlare.  
-[![]({{site.baseurl}}/assets/img/webstack/webstack-no-cloudflare.png)]({{site.baseurl}}/assets/img/webstack/webstack-no-cloudflare.png)  
+[![]({{site.baseurl}}/assets/img/webstack-no-cloudflare.png)]({{site.baseurl}}/assets/img/webstack-no-cloudflare.png)  
 
 - With CloudFlare.  
-[![]({{site.baseurl}}/assets/img/webstack/webstack.png)]({{site.baseurl}}/assets/img/webstack/webstack.png)  
+[![]({{site.baseurl}}/assets/img/webstack.png)]({{site.baseurl}}/assets/img/webstack.png)  
 
 Thanks!  
