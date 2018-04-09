@@ -17,4 +17,8 @@ def cors_response(orig_res):
     return cors_res
 ```
 
+## Architecture ##  
+[![]({{site.baseurl}}/assets/img/CORS.png)]({{site.baseurl}}/assets/img/CORS.png)  
+
+
 Thanks!  
