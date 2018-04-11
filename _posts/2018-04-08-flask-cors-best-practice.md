@@ -22,6 +22,8 @@ def cors_response(orig_res):
 ### None-SSL
 [![]({{site.baseurl}}/assets/img/CORS.png)]({{site.baseurl}}/assets/img/CORS.png)  
 
+----------
+
 ### SSL
 [![]({{site.baseurl}}/assets/img/CORS-SSL.png)]({{site.baseurl}}/assets/img/CORS-SSL.png)  
 
