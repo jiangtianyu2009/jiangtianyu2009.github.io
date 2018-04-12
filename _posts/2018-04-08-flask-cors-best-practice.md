@@ -2,7 +2,7 @@
 layout:      post
 title:       Flask CORS Best Practice
 category:    Python
-description: Best practice for Flask APP CORS setting.
+description: Best practice for Flask APP CORS.
 ---
 
 Because of the `same orign policy`, for security concerns, the API build by Flask cannot be fetched via other urls, even `xxx.com` cannot fetch `www.xxx.com/api/`, too bad for use. So, we need to set the `Access-Control-Allow-Origin` option to enable it.
