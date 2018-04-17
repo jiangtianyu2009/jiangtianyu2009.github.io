@@ -8,6 +8,6 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - python checkfile.py
+  - python checkfiles.py
 notifications:
   slack: jiangtianyu:s5kgWEw0Mmf0PhlYniLoT8Sv
