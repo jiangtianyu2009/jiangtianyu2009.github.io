@@ -7,7 +7,7 @@
 * <i class="fas fa-phone fa-fw"></i> 手机：15198044376
 * <i class="fas fa-camera-retro fa-fw"></i> 邮件：jiangtianyu2008@gmail.com
 * <i class="fab fa-weixin fa-fw"></i> 微信：jiangtianyu2009
-* <i class="fab fa-wordpress fa-fw"></i> 博客：[www.jiangtianyu.ga](https://www.jiangtianyu.ga)
+* <i class="fab fa-wordpress fa-fw"></i> 博客：[www.jiangtianyu.xyz](https://www.jiangtianyu.xyz)
 * <i class="fab fa-github fa-fw"></i> Github：[github.com/jiangtianyu2009](https://github.com/jiangtianyu2009)
 
 ----------
