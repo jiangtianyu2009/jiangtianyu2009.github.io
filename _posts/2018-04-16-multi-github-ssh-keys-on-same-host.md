@@ -1,6 +1,6 @@
 ---
 layout:      post
-title:       Multi Github SSH Keys On Same Host
+title:       Multi Github SSH Keys on Same Host
 category:    GitHub
 description: Config several github accounts access via SSH keys on the same host.
 ---
