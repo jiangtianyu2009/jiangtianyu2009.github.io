@@ -7,9 +7,13 @@ description: Config several github accounts access via SSH keys on the same host
 
 Sometimes we use the same linux host to access several different repositories from several different Github account, we will meet the confusion on the SSH Keys configuration.
 
+----------
+
 ## User Scenario ##
 
 [![]({{site.baseurl}}/assets/img/github-multi-ssh.png)]({{site.baseurl}}/assets/img/github-multi-ssh.png)  
+
+----------
 
 ## Config File ##
 

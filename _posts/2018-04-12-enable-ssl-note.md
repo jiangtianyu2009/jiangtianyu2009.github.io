@@ -21,6 +21,8 @@ description: Note for enable SSL on website.
 `cp goldenshark.key /etc/ssl/`  
 `cp cert_chain.crt /etc/ssl/`  
 
+----------
+
 ## Nginx Config ##
 
 ```

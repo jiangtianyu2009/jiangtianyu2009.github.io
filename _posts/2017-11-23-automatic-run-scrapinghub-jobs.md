@@ -9,9 +9,13 @@ description: How to setup Scrapinghub and Travis CI to automatic run spiders.
 
 [![]({{site.baseurl}}/assets/img/auto-scrapinghub.png)]({{site.baseurl}}/assets/img/auto-scrapinghub.png)  
 
+----------
+
 ## Scrapinghub ##
 
 [![]({{site.baseurl}}/assets/img/spider-auto-deploy.png)]({{site.baseurl}}/assets/img/spider-auto-deploy.png)  
+
+----------
 
 ## Travis CI ##
 

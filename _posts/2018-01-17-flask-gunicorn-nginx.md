@@ -11,7 +11,7 @@ description: Description each section of Flask Web Project.
 `virtualenv venv`  
 `. venv/bin/activate &&&& deactivate`  
 
-
+----------
 
 ## Flask ##
 `pip install Flask`  
@@ -28,12 +28,14 @@ def hello_world():
 `flask run` # default 127.0.0.1:5000  
 `flask run --host=0.0.0.0` # external ip access  
 
+----------
 
 ## Gunicorn ##
 `pip install gunicorn`  
 `gunicorn -w 4 -b 127.0.0.1:4000 jav:app --reload --daemon`  
 `--reload` is for auto reload app when code changes.
 
+----------
 
 ## Nginx ##
 `apt-get install nginx`  
@@ -57,6 +59,8 @@ http {
 `nginx` # start service  
 `nginx -s reload`  
 
+----------
+
 ## Domain ##
 - Default Freenom Setting without CloudFlare.  
 [![]({{site.baseurl}}/assets/img/freenom-A-record.png)]({{site.baseurl}}/assets/img/freenom-A-record.png)  
@@ -64,9 +68,11 @@ http {
 - With CloudFlare DNS.  
 [![]({{site.baseurl}}/assets/img/cloudflare-A-record.png)]({{site.baseurl}}/assets/img/cloudflare-A-record.png)  
 
+----------
+
 ## Architecture ##
 - Without CloudFlare.  
-[![]({{site.baseurl}}/assets/img/webstack-no-cloudflare.png)]({{site.baseurl}}/assets/img/webstack-no-cloudflare.png)  
+[![]({{site.baseurl}}/assets/img/webstack-no-cloudflare.png)]({{site.baseurl}}/assets/img/webstack-no-cloudflare.png)
 
 - With CloudFlare.  
 [![]({{site.baseurl}}/assets/img/webstack.png)]({{site.baseurl}}/assets/img/webstack.png)  

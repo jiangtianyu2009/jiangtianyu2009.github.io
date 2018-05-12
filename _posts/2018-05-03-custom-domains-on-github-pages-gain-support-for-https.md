@@ -15,6 +15,8 @@ Form May 1st 2018, GitHub Pages begin support https for custom domains.
 
 [![]({{site.baseurl}}/assets/img/github-https-settings.png)]({{site.baseurl}}/assets/img/github-https-settings.png)  
 
+----------
+
 ## CNAME Settings ##
 
 [![]({{site.baseurl}}/assets/img/github-https-cname.png)]({{site.baseurl}}/assets/img/github-https-cname.png)  

@@ -8,6 +8,7 @@ description: Guide for Flask APP favicon setting.
 ## Favicon Pic Folder ##
 [![]({{site.baseurl}}/assets/img/favicon-setting.png)]({{site.baseurl}}/assets/img/favicon-setting.png)  
 
+----------
 
 ## Flask Code ##
 ```

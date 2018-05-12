@@ -10,6 +10,8 @@ description: Code snip for response.follow passing data to callback function.
 yield response.follow(url, self.getdetail, meta={'code': code_new, 'name': name_new})
 ```
 
+----------
+
 ## Receive Data ##
 ```
 def getdetail(self, response):
