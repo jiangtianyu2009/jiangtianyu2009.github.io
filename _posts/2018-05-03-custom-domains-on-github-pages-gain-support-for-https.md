@@ -7,7 +7,9 @@ description: Form May 1st 2018, GitHub Pages begin support https for custom doma
 
 
 Form May 1st 2018, GitHub Pages begin support https for custom domains.  
-**Attention: DNS settings like CNAME && A Record modification may need several hours to take effect.**
+**Attention: DNS settings like CNAME && A Record modification may need several hours to take effect.**  
+
+----------
 
 ## GitHub Settings ##
 
