@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>2018-05-13-wiremock-101</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body {
+    font-family: "微软雅黑", Helvetica, "微软雅黑", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333;
+    margin: 10px 13px 10px 13px;
+}
+</style>
+<link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+</head>
+<body>
+<h1>WireMock 101</h1>
+<p>WireMock is a simulator for HTTP-based APIs.  </p>
+<p>It enables you to <strong>stay productive</strong> when an API you depend on <strong>does not exist</strong> or not complete.  </p>
+<p>We use WireMock standalone jar as startup in this post. Download the jar file from http://wiremock.org, the last version is <code>2.17.0</code>, run the WireMock process via command <code>java -jar wiremock-standalone-2.17.0.jar</code>.  </p>
+<p>There are several commond line options such set the port number, refer at <a href="http://wiremock.org/docs/running-standalone/">Running as a Standalone Process</a>.  </p>
+<hr />
+<h2>WireMock Folder</h2>
+<ul>
+<li><code>__files</code><br />
+  Html, js, css, picture files.</li>
+<li><code>mappings</code><br />
+  Json files.</li>
+</ul>
+<img src="https://thumbsnap.com/i/KTkoKnus.png" width="600"/>
+<p>Put a json file with below content into the <code>mappings</code> folder.  </p>
+<pre><code>{
+    &quot;request&quot;: {
+        &quot;method&quot;: &quot;GET&quot;,
+        &quot;url&quot;: &quot;/api/mytest&quot;
+    },
+    &quot;response&quot;: {
+        &quot;status&quot;: 200,
+        &quot;body&quot;: &quot;More content\n&quot;
+    }
+}
+</code></pre>
+
+<p>And try to fetch the API via <code>GET</code>:<br />
+<code>http://localhost:8080/api/mytest</code></p>
+<hr />
+<h2>Record &amp;&amp; Playback</h2>
+<p>We use the douban API to fetch online movie for test:<br />
+<code>https://api.douban.com/v2/movie/in_theaters</code></p>
+<img src="https://thumbsnap.com/i/J4v29hhx.png" width="600"/>
+<h3>Record</h3>
+<ul>
+<li>
+<p>Web Recoder<br />
+  <code>http://localhost:8080/__admin/recorder</code><br />
+  Fill into the root proxy domain: <code>https://api.douban.com</code><br />
+  Then make a request through WireMock to the target API via <code>GET</code>:<br />
+  <code>http://localhost:8080/v2/movie/in_theaters</code>  
+</p>
+</li>
+<li>
+<p>Command Line Tool<br />
+  Use command line instead of Web GUI:<br />
+  <code>java -jar wiremock-standalone-2.17.0.jar --proxy-all=&quot;https://api.douban.com&quot; --record-mappings --verbose</code></p>
+</li>
+</ul>
+<h3>Playback</h3>
+<p>After <code>Record</code>, there will have a file with name <code>v2_movie_in_theaters-xxxxxx.json</code> in the <code>mappings</code> folder.  </p>
+<p>Disable network and try to fetch:<br />
+<code>http://localhost:8080/v2/movie/in_theaters</code>  </p>
+<p>Thanks!</p>
+
+</body>
+</html>
+<!-- This document was created with MarkdownPad, the Markdown editor for Windows (http://markdownpad.com) -->
