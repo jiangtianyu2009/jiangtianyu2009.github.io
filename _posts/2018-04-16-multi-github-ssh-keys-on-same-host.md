@@ -44,4 +44,15 @@ Then edit the git configuration file, replace `git@github.com` in url with the s
         fetch = +refs/heads/*:refs/remotes/origin/*
 ```
 
+----------
+
+### name && email ###
+
+If repository need different commit `user info`, just cmd like this:
+```
+git config --list
+git config user.name "name"
+git config user.email "name@email.com"
+``` 
+
 Thanks!
