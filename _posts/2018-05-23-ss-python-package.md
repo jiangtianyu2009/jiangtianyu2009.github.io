@@ -11,7 +11,7 @@ So we had to upgrade the `shadowsocks` verion, and **attention** that, the last 
 
 ```
 pip uninstall shadowsocks
-pip install shadowssocks-py
+pip install shadowsocks-py
 ```
 
 The [original pypi source](https://pypi.org/project/shadowsocks/) is not maintained since version 2.8.2, this is a [newly maintained pypi source](https://pypi.org/project/shadowsocks-py/) by SilverLining.
