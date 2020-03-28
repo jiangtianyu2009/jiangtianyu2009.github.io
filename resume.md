@@ -1,25 +1,21 @@
-
-----------
-
 # 个人信息
 
 * <i class="fas fa-id-card fa-fw"></i> 蒋天宇/男/1991
-* <i class="fas fa-phone fa-fw"></i> 手机：15198044376
-* <i class="fas fa-camera-retro fa-fw"></i> 邮件：jiangtianyu2008@gmail.com
+* <i class="fas fa-phone fa-fw"></i> 手机：17348085220
+* <i class="fas fa-camera-retro fa-fw"></i> 邮件：jiangtianyu2009@hotmail.com
 * <i class="fab fa-weixin fa-fw"></i> 微信：jiangtianyu2009
 * <i class="fab fa-wordpress fa-fw"></i> 博客：[www.jiangtianyu.xyz](https://www.jiangtianyu.xyz)
-* <i class="fab fa-github fa-fw"></i> Github：[github.com/jiangtianyu2009](https://github.com/jiangtianyu2009)
 
 ----------
+
 # 教育经历
+
 * <i class="fas fa-graduation-cap fa-fw"></i> 硕士 四川大学 软件工程专业 2013~2016
 * <i class="fas fa-graduation-cap fa-fw"></i> 本科 四川大学 软件工程专业 2009~2013
 
 ----------
 
-
 # 工作经历
-
 
 ## <i class="far fa-building fa-fw"></i> EMC公司  (2016.07 – 至今)
 
@@ -42,7 +38,6 @@
 
 ----------
 
-
 # 技能清单
 
 以下均为我熟练使用的技能
@@ -53,6 +48,5 @@
 * <i class="fab fa-slack-hash fa-fw"></i> 自动化：Jenkins/Travis CI/Slack/Saucelabs
 * <i class="fab fa-slideshare fa-fw"></i> 爬虫：Scrapy/Scrapinghub
 * <i class="fab fa-mixcloud fa-fw"></i> 云服务：GAE/Vultr
-
 
 ----------
