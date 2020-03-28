@@ -47,4 +47,3 @@
 * <i class="fas fa-code-branch fa-fw"></i> 版本控制：Git/SVN
 * <i class="fab fa-slack-hash fa-fw"></i> 自动化：Jenkins/Travis CI/Salt/Puppet
 * <i class="fab fa-slideshare fa-fw"></i> 爬虫：Scrapy/Scrapinghub
-* <i class="fab fa-mixcloud fa-fw"></i> 云服务：GAE/Vultr
