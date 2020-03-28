@@ -17,7 +17,7 @@
 
 # 工作经历
 
-## <i class="far fa-building fa-fw"></i> EMC公司  (2016.07 – 至今)
+## <i class="far fa-building fa-fw"></i> Dell EMC (2016.07 – 至今)
 
 ### <i class="far fa-bookmark fa-fw"></i> 存储系统持续测试执行环境
 
@@ -43,10 +43,8 @@
 以下均为我熟练使用的技能
 
 * <i class="fab fa-python fa-fw"></i> 语言：Python/Perl/C#
-* <i class="fab fa-vuejs fa-fw"></i> Web：Flask/Gunicorn/Nginx
+* <i class="fab fa-vuejs fa-fw"></i> Web：Vue/Flask/Gunicorn/Nginx
 * <i class="fas fa-code-branch fa-fw"></i> 版本控制：Git/SVN
-* <i class="fab fa-slack-hash fa-fw"></i> 自动化：Jenkins/Travis CI/Slack/Saucelabs
+* <i class="fab fa-slack-hash fa-fw"></i> 自动化：Jenkins/Travis CI/Salt/Puppet
 * <i class="fab fa-slideshare fa-fw"></i> 爬虫：Scrapy/Scrapinghub
 * <i class="fab fa-mixcloud fa-fw"></i> 云服务：GAE/Vultr
-
-----------
