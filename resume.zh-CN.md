@@ -1,6 +1,6 @@
-## 个人信息
+## 蒋天宇
 
-- 蒋天宇/男/1991
+- 男/1991
 - 手机：17348085220
 - 邮箱：jiangtianyu2009@qq.com
 - 微信：jiangtianyu2009
@@ -27,7 +27,7 @@
 #### 自动化测试用例开发
 
 参与公司中端存储产品自动化测试用例开发工作。本人主要负责存储产品Web GUI和系统容错性方面的测试用例设计、编码、执行并跟踪发现的Bug。GUI方面基于Test Complete和Selenium进行自动化测试脚本的开发和执行；系统容错性方面主要是利用系统调试接口测试各种错误发生的条件下存储产品的工作情况，包含磁盘插拔、电源失效、系统重启、PCIe接口错误等情况。
-通过推进自动化测试，能够有效保障产品质量。在2019年存储产品添加对NVMe设备支持的过程中，我们的自动化测试用例就在这项功能开发的初期快速发现问题，很好地保障了产品质量和项目进度。
+推进自动化测试能够有效保障产品质量，在2019年存储产品添加对NVMe设备支持的过程中，我们的自动化测试用例就在这项功能开发的初期快速发现问题，很好地保障了产品质量和项目进度。
 
 ----------
 
@@ -36,8 +36,7 @@
 以下为我熟练使用的技能：
 
 - 开发语言：Python/Perl/C
-- Web框架：Vue/Flask
-- Web工具：Gunicorn/Nginx/Chrome Extensions
-- 测试工具：Selenium/Test Complete/Puppeteer/WireMock
-- 版本控制：Git/SVN
-- 自动化部署：Jenkins/Travis CI/Salt/Puppet
+- Web技术：Flask/Gunicorn/Nginx/Chrome Extensions
+- 测试技术：Selenium/Test Complete/Puppeteer/WireMock
+- 项目管理：Jira/Rally/Git/SVN
+- 自动化：Jenkins/Travis CI/Salt/Puppet
