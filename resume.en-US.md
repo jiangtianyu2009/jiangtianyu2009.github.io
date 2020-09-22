@@ -10,8 +10,8 @@
 
 ## EDUCATION
 
-- Master of Engineering In Software Engineering, Sichuan University, Sep.2013 - Jun.2016
-- Bachelor of Engineering In Software Engineering, Sichuan University, Sep.2009 - Jun.2013
+- Master, Software Engineering, Sichuan University, Sep.2013 - Jun.2016
+- Bachelor, Software Engineering, Sichuan University, Sep.2009 - Jun.2013
 
 ----------
 
