@@ -38,5 +38,5 @@
 - 开发语言：Python/Perl/C
 - Web技术：Flask/Gunicorn/Nginx/Chrome Extensions
 - 测试技术：Selenium/Test Complete/Puppeteer/WireMock
-- 项目管理：Jira/Rally/Git/SVN
-- 自动化：Jenkins/Travis CI/Salt/Puppet
+- 项目管理：Jira/Confluence/Rally/Git/SVN
+- 持续集成：Jenkins/Travis CI/Salt/Puppet
