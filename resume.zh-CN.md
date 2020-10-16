@@ -39,4 +39,4 @@
 - 测试技术：Selenium/Postman/WireMock/JMeter/pytest
 - 项目管理：Jira/Git
 - 持续集成：Jenkins/Salt/Puppet
-- 其它技术：Flask/Nginx/Fiddler/Docker/Redis
+- 其它技术：Flask/Nginx/Fiddler/Docker
