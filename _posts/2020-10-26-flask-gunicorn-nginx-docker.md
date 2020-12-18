@@ -70,7 +70,9 @@ Config an auto build task in dockerhub account, then dockerhub will build image 
 `sudo docker pull mjyang/goldenshark`  
 `sudo docker image ls`  
 `sudo docker ps -a`  
-`sudo docker stop CONTAINER ID`  
+`sudo docker stop CONTAINER_ID`  
+`sudo docker rm CONTAINER_ID`  
+`sudo docker image rm IMAGE_ID`  
 `sudo docker run -p 4000:8080 -d mjyang/goldenshark`  
 `-p` means port mapping, local prot : docker port  
 `-d` means background running
