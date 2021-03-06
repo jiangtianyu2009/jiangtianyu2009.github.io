@@ -1,5 +1,5 @@
 ## Travis CI
-[![Build Status](https://travis-ci.com/jiangtianyu2009/jiangtianyu2009.github.io.svg?branch=master)](https://travis-ci.com/jiangtianyu2009/jiangtianyu2009.github.io)
+[![Build Status](https://travis-ci.com/jiangtianyu2009/myblog.svg?branch=master)](https://travis-ci.com/jiangtianyu2009/myblog)
 
 ## www.jiangtianyu.xyz
 
