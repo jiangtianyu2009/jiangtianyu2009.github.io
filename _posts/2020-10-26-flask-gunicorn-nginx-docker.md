@@ -5,7 +5,7 @@ category:    Python
 description: Docker Support for Flask Deployment.
 ---
 
-Before, we have a manual config approach to deploy Flask app on server, as talked in [this post](https://www.jiangtianyu.xyz/python/2018/01/17/flask-gunicorn-nginx.html).  
+Before, we have a manual config approach to deploy Flask app on server, as talked in [THIS POST](https://30141592.xyz/python/2018/01/17/flask-gunicorn-nginx.html).  
 Now we use Docker to deploy the Flask app.  
 
 ----------
