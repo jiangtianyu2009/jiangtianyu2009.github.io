@@ -5,4 +5,4 @@ install:
 # command to run tests
 script:
 #  - python checkfiles.py
-  - curl https://nhentai.xxx/search?q=%E4%BA%8C%E5%B3%B0%E8%B7%A8%E4%BA%BA
+  - curl https://nhentai.net/search?q=%E4%BA%8C%E5%B3%B0%E8%B7%A8%E4%BA%BA
